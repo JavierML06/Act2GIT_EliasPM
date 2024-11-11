@@ -2,7 +2,6 @@
 
 body {
     text-align: center;
-    background: radial-gradient(circle at center, #cdecd9, #f7e7d1, #cae5f3, #f3cfcf); /* Fondo con degradado radial */
     font-family: 'Nerko One', sans-serif;
     font-size: 16px;
 }

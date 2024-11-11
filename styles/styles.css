@@ -4,7 +4,6 @@
 }
 
 body{
-    background: radial-gradient(circle at center, #cdecd9, #f7e7d1, #cae5f3, #f3cfcf);
     color: black;
 }
 
@@ -46,6 +45,7 @@ nav > article > h2 {
 
 main{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 70vh;
@@ -53,8 +53,17 @@ main{
 
 }
 
+main > img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+main > h4 {
+    font-size: 120px;
+}
+
 main > p {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 footer{
