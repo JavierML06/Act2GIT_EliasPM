@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); /* Importa la fuente Nerko One */
+
+body {
+    text-align: center;
+    background: radial-gradient(circle at center, #cdecd9, #f7e7d1, #cae5f3, #f3cfcf); /* Fondo con degradado radial */
+    font-family: 'Nerko One', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    margin-top: 120px;
+    font-size: 40px;
+}
+
+table {
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    height: 50%;
+    box-shadow: 15px 20px 15px #5c5c5b; /* Sombra de la tabla */
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 20px;
+}
+
+#empty {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+}
+
+.horario {
+    width: 12%;
+    font-size: 18px;
+}
+
+td, th {
+    width: 100px;
+    background-color: white;
+    padding: 12px 8px;
+    border: 1px solid black;
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 18px;
+}
+
+th:not(#empty), .horario {
+    background-color: #FADADD;
+}
+
+#recreo {
+    letter-spacing: 100px; /* Espaciado entre letras */
+    font-size: 25px;
+    padding: 2px;
+    background: radial-gradient(circle at center, #FFFFFF, #FADADD);
+}
+
+/* Colores de fondo para diferentes clases */
+.sis {
+    background-color: #F7B5CA;
+}
+
+.bbdd {
+    background-color: #F4D19B;
+}
+
+.ide {
+    background-color: #A1EEBD;
+}
+
+.lmsgi {
+    background-color: #AEE2FF;
+}
+
+.fol {
+    background-color: #FF8080;
+}
+
+.prog {
+    background-color: #EBEF95;
+}
+
+.dasp {
+    background-color: #82A0D8;
+}
+
+.sasp {
+    background-color: #99BC85;
+}
