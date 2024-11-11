@@ -54,9 +54,7 @@ main{
     width: 100vw;
     display: flex;
     flex-direction: column;
-
 }
-
 
 table {
     font-family: 'Nerko One', sans-serif;
