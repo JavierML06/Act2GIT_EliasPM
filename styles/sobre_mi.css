@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); /* Importa la fuente Nerko One */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 12vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+header > p {
+    padding-left: 10px;
+}
+
+header > h1{
+    color: #6bbb89;
+    text-shadow: 1px 1px 3px black;
+    padding: 0 0 5px 10px;
+    font-size: 30px;
+}
+
+nav{
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    background-color: #A1EEBD;
+    align-items: center;
+}
+
+nav > article{
+    padding: 5px 20px;
+}
+
+nav > article > h2 {
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 70vh;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+
+main > section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Asegura que la sección no sobrepase el ancho del contenedor */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+
+main > section > div {
+    display: flex;
+    align-items: flex-start;
+    width: 100%; /* Asegura que el div no sobrepase el ancho del contenedor */
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+
+main > section > h2 {
+    margin: auto;
+    font-family: 'Nerko One', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+main > section > div > p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+main > p {
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: black;
+}
+
+footer > h3{
+    color: white;
+    font-size: 20px;
+}

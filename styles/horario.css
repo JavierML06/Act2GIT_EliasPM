@@ -6,7 +6,6 @@
 }
 
 body{
-    background: radial-gradient(circle at center, #cdecd9, #f7e7d1, #cae5f3, #f3cfcf);
     color: black;
 }
 
@@ -38,12 +37,12 @@ nav{
     align-items: center;
 }
 
-nav > article > h2 {
-    font-size: 20px;
+nav > article{
+    padding: 5px 20px;
 }
 
-#inicio-nav{
-    padding: 5px 20px;
+nav > article > h2 {
+    font-size: 20px;
 }
 
 main{
