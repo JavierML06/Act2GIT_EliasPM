@@ -3,19 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Horario_1ºDAM</title>
+    <link rel="stylesheet" href="styles/horario.css">
+    <title>IES-PABLO PICASSO</title>
 </head>
 <body>
-    <!-- Título principal -->
-    <h1>HORARIO 1ºDAM</h1>
     
-    <!-- Tabla de horario -->
+    <header>
+        <h1>
+            ENTORNOS DE DESARROLLO
+        </h1>
+        <p>
+            Actividad 2 - GIT y GITHUB
+        </p>
+    </header>
+    <nav>
+        <article id="inicio-nav">
+            <h2>
+                <a href="index.html">INICIO</a>
+            </h2>
+        </article>
+        <article id="horario-nav">
+            <h2>
+                <a href="horario.html">HORARIO</a>
+            </h2>
+        </article>
+
+    </nav>
+    <main>
     <table>
         <thead>
-            <!-- Encabezado de la tabla -->
             <tr>
-                <th id="empty"></th> <!-- Celda vacía para la columna de horas -->
+                <th id="empty"></th>
                 <th>LUNES</th>
                 <th>MARTES</th>
                 <th>MIÉRCOLES</th>
@@ -24,7 +42,6 @@
             </tr>
         </thead>
         <tbody>
-            <!-- Fila de 8:15 - 9:15 -->
             <tr>
                 <td class="horario">8:15 - 9:15</td>
                 <td rowspan="2" class="prog">PROGAMACIÓN</td>
@@ -33,12 +50,10 @@
                 <td rowspan="2" class="prog">PROGAMACIÓN</td>
                 <td rowspan="2" class="bbdd">BASE DE DATOS</td>
             </tr>
-            <!-- Fila de 9:15 - 10:15 -->
             <tr>
                 <td class="horario">9:15 - 10:15</td>
                 <td class="ide">ENTORNO</td>
             </tr>
-            <!-- Fila de 10:15 - 11:15 -->
             <tr>
                 <td class="horario">10:15 - 11:15</td>
                 <td class="bbdd">BASE DE DATOS</td>
@@ -47,12 +62,10 @@
                 <td class="fol">FOL</td>
                 <td class="sasp">SOSTENIBILIDAD</td>
             </tr>
-            <!-- Fila de recreo -->
             <tr>
                 <td class="horario">11:15 - 11:45</td>
                 <td colspan="5" id="recreo">RECREO</td>
             </tr>
-            <!-- Fila de 11:45 - 12:45 -->
             <tr>
                 <td class="horario">11:45 - 12:45</td>
                 <td class="bbdd">BASE DE DATOS</td>
@@ -61,14 +74,12 @@
                 <td rowspan="2" class="lmsgi">LENGUAJE DE MARCAS</td>
                 <td class="fol">FOL</td>
             </tr>
-            <!-- Fila de 12:45 - 13:45 -->
             <tr>
                 <td class="horario">12:45 - 13:45</td>
                 <td rowspan="2" class="sis">SISTEMAS</td>
                 <td rowspan="2" class="sis">SISTEMAS</td>
                 <td class="sis">SISTEMAS</td>
             </tr>
-            <!-- Fila de 13:45 - 14:45 -->
             <tr>
                 <td class="horario">13:45 - 14:45</td>
                 <td class="dasp">DIGITALIZACIÓN</td>
@@ -76,5 +87,11 @@
             </tr>
         </tbody>
     </table>
+    </main>
+    <footer>
+        <h3>
+            Desarrollado por IES Pablo Picasso
+        </h3>
+    </footer>
 </body>
 </html>
