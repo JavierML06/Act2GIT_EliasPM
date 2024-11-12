@@ -35,17 +35,16 @@ nav{
     align-items: center;
 }
 
+nav > article{
+    padding: 5px 20px;
+}
+
 nav > article > h2 {
     font-size: 20px;
 }
 
-#inicio-nav{
-    padding: 5px 20px;
-}
-
 main{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 70vh;
@@ -63,7 +62,7 @@ main > h4 {
 }
 
 main > p {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 footer{

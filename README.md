@@ -1,12 +1,14 @@
 # Act2GIT_EliasPM
 
 Este proyecto es una práctica de Git diseñada para aprender a manejar las ramas. A lo largo de esta práctica, trabajaremos en diferentes ramas y luego combinaremos los contenidos para obtener un resultado final cohesivo. El objetivo es familiarizarse con el flujo de trabajo de Git, incluyendo la creación, fusión y resolución de conflictos en ramas.
+***
 
 ## Objetivos del Proyecto
 
 - Aprender a crear y gestionar ramas en Git.
 - Practicar la fusión de ramas y la resolución de conflictos.
 - Comprender el flujo de trabajo colaborativo utilizando Git y GitHub.
+***
 
 ## Estructura del Proyecto
 
